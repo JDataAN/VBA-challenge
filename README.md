@@ -10,7 +10,7 @@ Sub StockAnalysis()
     Dim summaryRow As Long
     
     ' Loop through each worksheet in the workbook
-    For Each ws In ThisWorkbook.Worksheets
+    For Each ws In alphabetical_testing.workbook
         ' Initialize variables
         lastRow = ws.Cells(Rows.Count, 1).End(xlUp).Row
         summaryRow = 2 ' Start summary output from row 2
